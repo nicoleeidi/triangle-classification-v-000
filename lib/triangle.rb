@@ -7,7 +7,13 @@ class Triangle
   def kind
     if @length == @width && @length == @height
       return :equilateral
-    if 
+    elsif @length == @width && @length != @height 
+      return :isosceles
+    elsif @length == @height && @length != @width
+      return :isosceles
+    elsif @width == @height && @width != @length 
+      return :isosceles 
+    else 
 
       if @length + @width <= @height || @width + @height <= @length || @length + @height <= @width
       begin
