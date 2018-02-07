@@ -6,10 +6,9 @@ class Triangle
   end
   def kind
     if @length == @width && @length == @height
-      return 
+      return
   end
   # write code here
 end
-class TriangleError < StandardError 
-  begin
-    raise if 
+class TriangleError < StandardError
+end 
