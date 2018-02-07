@@ -1,4 +1,4 @@
 class Triangle
-  def initialize(length,width,height)
+  def initialize(length:,width:,height:)
   # write code here
 end
