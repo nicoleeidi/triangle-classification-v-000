@@ -15,6 +15,7 @@ class Triangle
       return :isosceles
     else
       return :scalene 
+    end 
 
       if @length + @width <= @height || @width + @height <= @length || @length + @height <= @width
       begin
