@@ -6,6 +6,14 @@ class Triangle
     @height= height
   end
   def kind
+    if @length + @width <= @height || @width + @height <= @length || @length + @height <= @width || @length <= 0 || @height <= 0 || @width <= 0
+      #begin
+        raise TriangleError
+      #rescue TriangleError => error
+          #puts error.message
+    #  end
+
+    end
     if @length == @width && @length == @height
       return :equilateral
     elsif @length == @width && @length != @height
@@ -19,14 +27,7 @@ class Triangle
     end
 
 
-    if @length + @width <= @height || @width + @height <= @length || @length + @height <= @width || @length <= 0 || @height <= 0 || @width <= 0
-      #begin
-        raise TriangleError
-      #rescue TriangleError => error
-          #puts error.message
-    #  end
-
-    end
+    
   end
   # write code here
 end
