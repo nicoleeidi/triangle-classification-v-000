@@ -27,7 +27,7 @@ class Triangle
     end
 
 
-    
+
   end
   # write code here
 end
