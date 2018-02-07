@@ -19,7 +19,7 @@ class Triangle
     end
 
 
-      if @length + @width <= @height || @width + @height <= @length || @length + @height <= @width || @length <= 0 || @height <= 0 || @width ,= 0
+      if @length + @width <= @height || @width + @height <= @length || @length + @height <= @width || @length <= 0 || @height <= 0 || @width <= 0
       #begin
         raise TriangleError
       #rescue TriangleError => error
