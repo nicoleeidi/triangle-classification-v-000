@@ -16,7 +16,7 @@ class Triangle
     else
       return :scalene
     end
-  
+
 
       if @length + @width <= @height || @width + @height <= @length || @length + @height <= @width
       begin
@@ -24,8 +24,7 @@ class Triangle
       rescue TriangleError => error
           puts error.message
       end
-    else
-      person.partner = self
+    
     end
   end
   # write code here
