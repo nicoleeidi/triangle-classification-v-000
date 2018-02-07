@@ -20,11 +20,11 @@ class Triangle
 
 
       if @length + @width <= @height || @width + @height <= @length || @length + @height <= @width || @length == 0 || @height == 0 || @width == 0
-      begin
+      #begin
         raise TriangleError
-      rescue TriangleError => error
-          puts error.message
-      end
+      #rescue TriangleError => error
+          #puts error.message
+    #  end
 
     end
   end
