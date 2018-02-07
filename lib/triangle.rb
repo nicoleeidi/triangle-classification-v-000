@@ -6,7 +6,8 @@ class Triangle
   end
   def kind
     if @length == @width && @length == @height
-      return
+      return :equilateral
+    if 
 
       if @length + @width <= @height || @width + @height <= @length || @length + @height <= @width
       begin
