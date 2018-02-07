@@ -1,8 +1,8 @@
 class Triangle
   def initialize(length:,width:,height:)
-    @length= length:
-    @width= width:
-    @height= height:
+    @length= length
+    @width= width
+    @height= height
   end
   def kind
     if @length == @width && @length == @height
@@ -24,7 +24,7 @@ class Triangle
       rescue TriangleError => error
           puts error.message
       end
-    
+
     end
   end
   # write code here
